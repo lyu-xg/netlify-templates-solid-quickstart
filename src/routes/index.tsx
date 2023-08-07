@@ -4,16 +4,14 @@ import Counter from "~/components/Counter";
 export default function Home() {
   return (
     <main>
-      <Title>Hello World</Title>
-      <h1>Hello world!</h1>
-      <Counter />
-      <p>
-        Visit{" "}
-        <a href="https://start.solidjs.com" target="_blank">
-          start.solidjs.com
-        </a>{" "}
-        to learn how to build SolidStart apps.
-      </p>
+      <div class="container">
+        <div class="qr-code">
+            <img src="https://ik.imagekit.io/zenwu/IMG_2824_WGZrTcbav.jpeg?updatedAt=1691424412043" alt="WeChat QR Code"/>
+        </div>
+        <div class="username">
+            扫描二维码或添加用户名: <strong>LyuXueGuang</strong>
+        </div>
+    </div>
     </main>
   );
 }

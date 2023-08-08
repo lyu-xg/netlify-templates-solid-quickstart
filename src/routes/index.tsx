@@ -9,7 +9,7 @@ export default function Home() {
             <img src="https://ik.imagekit.io/zenwu/IMG_2824_WGZrTcbav.jpeg?updatedAt=1691424412043" alt="WeChat QR Code"/>
         </div>
         <div class="username">
-            扫描二维码或添加用户名: <strong>LyuXueGuang</strong>
+            <strong>LyuXueGuang</strong>
         </div>
     </div>
     </main>
